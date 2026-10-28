@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aster’s Digital Universe | Warm Creator Studio</title>
+    <meta name="description" content="Explore AI Creativity, Digital Learning, Technology, and Original E-books by Aster Zaw.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                <i class="fa-solid fa-universe"></i> Aster’s Universe
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#ebooks">E-books</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" id="headerTelegramBtn" class="btn-telegram" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-telegram"></i> Telegram
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <h1>Welcome to Aster’s Digital Universe</h1>
+                <p>Explore AI Creativity, Digital Learning, Technology, and Original E-books.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+                    <a href="#ebooks" class="btn btn-secondary">Browse E-books</a>
+                    <a href="#" id="heroTelegramBtn" class="btn btn-telegram-large" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-telegram"></i> Join Telegram
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section container">
+            <div class="section-header">
+                <h2>About The Creator</h2>
+                <p>A warm space dedicated to continuous learning, digital creation, and sharing knowledge.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Welcome to my digital sanctuary! I am Aster Zaw, passionate about business operations, technology systems, educational content creation, and creative arts.</p>
+                    <p>This platform serves as a centralized hub connecting my e-book publications, interactive learning resources, programming projects, and community updates via Telegram.</p>
+                </div>
+                <div class="about-card">
+                    <h3><i class="fa-solid fa-seedling"></i> Core Focus Areas</h3>
+                    <ul>
+                        <li>Digital Education & E-books</li>
+                        <li>Excel & Tech Solutions</li>
+                        <li>Creative Arts & Waldorf Education</li>
+                        <li>Community & Telegram Bot Learning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Creative Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Creative Projects</h2>
+                    <p>Discover innovative tools, educational platforms, and digital creations.</p>
+                </div>
+                <div class="grid-container" id="projectsContainer">
+                    <!-- Dynamically populated from script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- E-book Library Section -->
+        <section id="ebooks" class="ebooks-section container">
+            <div class="section-header">
+                <h2>E-book Library</h2>
+                <p>Browse original publications, workbooks, and learning guides.</p>
+            </div>
+            
+            <div class="library-controls">
+                <div class="search-box">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" id="bookSearchInput" placeholder="Search by title or author...">
+                </div>
+                <div class="filter-controls">
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                    </select>
+                    <select id="languageFilter">
+                        <option value="all">All Languages</option>
+                        <option value="Myanmar">Myanmar</option>
+                        <option value="English">English</option>
+                        <option value="Bilingual">Bilingual</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid-container" id="booksContainer">
+                <!-- Dynamically populated from script.js -->
+            </div>
+            <div id="noBooksMessage" class="empty-state hidden">
+                <i class="fa-solid fa-book-open"></i>
+                <p>No e-books found matching your search criteria.</p>
+            </div>
+        </section>
+
+        <!-- Learning Resources Section -->
+        <section id="resources" class="resources-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Learning Resources</h2>
+                    <p>Structured tutorials, guides, and practical material.</p>
+                </div>
+                <div class="grid-container" id="resourcesContainer">
+                    <!-- Dynamically populated from script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="blog-section container">
+            <div class="section-header">
+                <h2>Latest Articles & Notes</h2>
+                <p>Thoughts on technology, education, and creative workflows.</p>
+            </div>
+            <div class="grid-container" id="blogContainer">
+                <!-- Dynamically populated from script.js -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-container">
+                <div class="section-header">
+                    <h2>Connect & Contact</h2>
+                    <p>Get in touch or join the community channels.</p>
+                </div>
+                <div class="contact-card" id="contactCard">
+                    <!-- Dynamically populated from script.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="currentYear"></span> Aster’s Digital Universe. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Back to Top</a>
+                <a href="#" id="footerTelegramBtn" target="_blank" rel="noopener">Telegram Bot</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
